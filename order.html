@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+    <header>
+        <a href="index.html"><img src="https://images2.imgbox.com/dc/cb/VGQuZliE_o.png" width="50"></a>
+    </header>
+        <h1>BACCHI STORE</h1>
     <div id="order-form">
         <p>Enter shipping address here! (Not scam 100%)</p>
         <form action="/processing.php" method="post" id="orderform">
@@ -16,6 +20,8 @@
                 <option value="Maimai Gloves">Maimai Gloves</option>
                 <option value="Derakuma Keychains">Derakuma Keychains</option>
             </select><br><br>
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity" name="quantity"><br><br>
             <label for="name">Name:</label>
             <input type="text" id="name" name="name"><br><br>
             <label for="phone">Phone number:</label>
@@ -24,8 +30,13 @@
             <input type="text" id="address" name="address"><br><br>
             <label for="zipcode">Zipcode:</label>
             <input type="number" id="zipcode" name="zipcode"><br><br>
-            <input type="submit" value="Submit">
+            <input class="button" type="submit" value="Place Order">
         </form>
     </div>
+    <footer>
+        <p><strong>Contact me:</strong></p>
+        <a href="https://www.facebook.com/quockhanh.nguyenhoang.3/" target="_blank"><img src="https://cdn.discordapp.com/attachments/453673505763098635/1214826927727190036/facebook.png?ex=65fa86bd&is=65e811bd&hm=bcaf531ae113626e1b604caf5fa6ff64a72296a45c3ff0c179e93b3651289000&" width="30px"></a>
+        <a href="https://github.com/KhanhNguyen2806" target="_blank"><img src="https://cdn.discordapp.com/attachments/453673505763098635/1214826927978840064/github.png?ex=65fa86be&is=65e811be&hm=ffd761734554d1738715491770a3f1c6be6a9960195818ccdc6d9dabd184a922&" width="30px"></a>
+    </footer>
 </body>
 </html>
