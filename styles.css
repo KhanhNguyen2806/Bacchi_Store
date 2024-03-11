@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    
+}
+
+footer, header {
+    background-color: lightblue;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace; color:royalblue;
+}
+
+table, th, td {
+    border: 1px solid;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+caption {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
